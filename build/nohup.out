@@ -1,0 +1,263 @@
+1695026695.205293 debug redudp.c:777 redudp_init_instance(...) redudp @ 127.0.0.1:10053: destaddr=8.8.8.8:53
+1695026695.206014 notice main.c:167 main(...) redsocks started, conn_max=131072
+1695026723.155307 info redsocks.c:1243 redsocks_accept_client(...) [172.21.0.2:49626->93.46.8.90:443]: accepted
+1695026856.594600 debug redsocks.c:782 redsocks_shutdown(...) [172.21.0.2:49626->93.46.8.90:443]: shutdown: bufferevent_disable(relay, EV_READ)
+1695027023.106197 debug redsocks.c:782 redsocks_shutdown(...) [172.21.0.2:49626->93.46.8.90:443]: shutdown: bufferevent_disable(client, EV_READ)
+1695027823.667155 info redsocks.c:1243 redsocks_accept_client(...) [172.21.0.2:43810->151.101.2.132:443]: accepted
+1695027824.535643 debug redsocks.c:341 redsocks_start_relay(...) [172.21.0.2:43810->151.101.2.132:443]: data relaying started
+1695027829.316020 info redsocks.c:671 redsocks_drop_client(...) [172.21.0.2:43810->151.101.2.132:443]: connection closed
+1695027943.840116 info redsocks.c:1243 redsocks_accept_client(...) [172.21.0.2:40294->93.46.8.90:443]: accepted
+1695028075.149705 debug redsocks.c:782 redsocks_shutdown(...) [172.21.0.2:40294->93.46.8.90:443]: shutdown: bufferevent_disable(relay, EV_READ)
+1695033212.834520 info redsocks.c:1243 redsocks_accept_client(...) [172.21.0.2:50608->36.155.132.55:80]: accepted
+1695033213.815656 debug redsocks.c:341 redsocks_start_relay(...) [172.21.0.2:50608->36.155.132.55:80]: data relaying started
+1695033214.320446 info redsocks.c:671 redsocks_drop_client(...) [172.21.0.2:50608->36.155.132.55:80]: connection closed
+1695033229.750608 info redsocks.c:1243 redsocks_accept_client(...) [172.21.0.2:41090->108.160.170.44:443]: accepted
+1695033230.539020 debug redsocks.c:782 redsocks_shutdown(...) [172.21.0.2:41090->108.160.170.44:443]: shutdown: bufferevent_disable(relay, EV_READ)
+1695033233.683967 debug redsocks.c:782 redsocks_shutdown(...) [172.21.0.2:41090->108.160.170.44:443]: shutdown: bufferevent_disable(client, EV_READ)
+1695033238.948129 info redsocks.c:1243 redsocks_accept_client(...) [172.21.0.2:60470->36.155.132.55:443]: accepted
+1695033240.057486 debug redsocks.c:341 redsocks_start_relay(...) [172.21.0.2:60470->36.155.132.55:443]: data relaying started
+1695033241.613193 info redsocks.c:671 redsocks_drop_client(...) [172.21.0.2:60470->36.155.132.55:443]: connection closed
+1695033246.101867 info redsocks.c:1243 redsocks_accept_client(...) [172.21.0.2:60912->103.235.46.40:443]: accepted
+1695033247.064070 debug redsocks.c:341 redsocks_start_relay(...) [172.21.0.2:60912->103.235.46.40:443]: data relaying started
+1695033248.520364 info redsocks.c:671 redsocks_drop_client(...) [172.21.0.2:60912->103.235.46.40:443]: connection closed
+1695033518.630241 info redsocks.c:1243 redsocks_accept_client(...) [172.21.0.2:34058->59.24.3.174:443]: accepted
+1695033650.814550 debug redsocks.c:782 redsocks_shutdown(...) [172.21.0.2:34058->59.24.3.174:443]: shutdown: bufferevent_disable(relay, EV_READ)
+1695034141.316561 debug redsocks.c:782 redsocks_shutdown(...) [172.21.0.2:34058->59.24.3.174:443]: shutdown: bufferevent_disable(client, EV_READ)
+1695034722.259159 info redsocks.c:1243 redsocks_accept_client(...) [172.21.0.2:36104->59.24.3.174:443]: accepted
+1695034725.466051 debug redsocks.c:782 redsocks_shutdown(...) [172.21.0.2:36104->59.24.3.174:443]: shutdown: bufferevent_disable(client, EV_READ)
+1695034854.053989 debug redsocks.c:782 redsocks_shutdown(...) [172.21.0.2:36104->59.24.3.174:443]: shutdown: bufferevent_disable(relay, EV_READ)
+1695034914.534905 info redsocks.c:1243 redsocks_accept_client(...) [172.21.0.2:44912->59.24.3.174:443]: accepted
+1695034916.932909 debug redsocks.c:782 redsocks_shutdown(...) [172.21.0.2:44912->59.24.3.174:443]: shutdown: bufferevent_disable(client, EV_READ)
+1695035048.618864 debug redsocks.c:782 redsocks_shutdown(...) [172.21.0.2:44912->59.24.3.174:443]: shutdown: bufferevent_disable(relay, EV_READ)
+1695035242.719225 debug redudp.c:288 redudp_enqeue_pkt(...) [172.21.0.2:50628->8.8.8.8:53]: <trace>
+1695035242.722840 info redudp.c:546 redudp_first_pkt_from_client(...) [172.21.0.2:50628->8.8.8.8:53]: got 1st packet from client
+1695035242.726102 debug redudp.c:288 redudp_enqeue_pkt(...) [172.21.0.2:50628->8.8.8.8:53]: <trace>
+1695035242.736681 debug redudp.c:474 redudp_relay_connected(...) [172.21.0.2:50628->8.8.8.8:53]: via 192.168.65.2:7450
+1695035243.358825 debug redudp.c:430 redudp_read_auth_methods(...) [172.21.0.2:50628->8.8.8.8:53]: <trace>
+1695035243.635151 notice redudp.c:500 redudp_relay_error(...) [172.21.0.2:50628->8.8.8.8:53]: redudp_relay_error
+1695035243.638250 info redudp.c:217 redudp_drop_client(...) [172.21.0.2:50628->8.8.8.8:53]: Dropping...
+1695035245.219548 debug redudp.c:288 redudp_enqeue_pkt(...) [172.21.0.2:50628->8.8.8.8:53]: <trace>
+1695035245.221798 info redudp.c:546 redudp_first_pkt_from_client(...) [172.21.0.2:50628->8.8.8.8:53]: got 1st packet from client
+1695035245.222485 debug redudp.c:288 redudp_enqeue_pkt(...) [172.21.0.2:50628->8.8.8.8:53]: <trace>
+1695035245.229406 debug redudp.c:474 redudp_relay_connected(...) [172.21.0.2:50628->8.8.8.8:53]: via 192.168.65.2:7450
+1695035245.834080 debug redudp.c:430 redudp_read_auth_methods(...) [172.21.0.2:50628->8.8.8.8:53]: <trace>
+1695035246.140973 notice redudp.c:500 redudp_relay_error(...) [172.21.0.2:50628->8.8.8.8:53]: redudp_relay_error
+1695035246.143783 info redudp.c:217 redudp_drop_client(...) [172.21.0.2:50628->8.8.8.8:53]: Dropping...
+1695035261.077279 debug redudp.c:288 redudp_enqeue_pkt(...) [172.21.0.2:59105->8.8.8.8:53]: <trace>
+1695035261.079904 info redudp.c:546 redudp_first_pkt_from_client(...) [172.21.0.2:59105->8.8.8.8:53]: got 1st packet from client
+1695035261.080519 debug redudp.c:288 redudp_enqeue_pkt(...) [172.21.0.2:59105->8.8.8.8:53]: <trace>
+1695035261.083393 debug redudp.c:474 redudp_relay_connected(...) [172.21.0.2:59105->8.8.8.8:53]: via 192.168.65.2:7450
+1695035261.590592 debug redudp.c:430 redudp_read_auth_methods(...) [172.21.0.2:59105->8.8.8.8:53]: <trace>
+1695035261.855255 notice redudp.c:500 redudp_relay_error(...) [172.21.0.2:59105->8.8.8.8:53]: redudp_relay_error
+1695035261.856747 info redudp.c:217 redudp_drop_client(...) [172.21.0.2:59105->8.8.8.8:53]: Dropping...
+1695035263.584382 debug redudp.c:288 redudp_enqeue_pkt(...) [172.21.0.2:59105->8.8.8.8:53]: <trace>
+1695035263.590225 info redudp.c:546 redudp_first_pkt_from_client(...) [172.21.0.2:59105->8.8.8.8:53]: got 1st packet from client
+1695035263.591574 debug redudp.c:288 redudp_enqeue_pkt(...) [172.21.0.2:59105->8.8.8.8:53]: <trace>
+1695035263.597597 debug redudp.c:474 redudp_relay_connected(...) [172.21.0.2:59105->8.8.8.8:53]: via 192.168.65.2:7450
+1695035264.106158 debug redudp.c:430 redudp_read_auth_methods(...) [172.21.0.2:59105->8.8.8.8:53]: <trace>
+1695035264.370588 notice redudp.c:500 redudp_relay_error(...) [172.21.0.2:59105->8.8.8.8:53]: redudp_relay_error
+1695035264.372486 info redudp.c:217 redudp_drop_client(...) [172.21.0.2:59105->8.8.8.8:53]: Dropping...
+1695041822.050772 debug redudp.c:288 redudp_enqeue_pkt(...) [172.21.0.2:54771->8.8.8.8:53]: <trace>
+1695041822.053999 info redudp.c:546 redudp_first_pkt_from_client(...) [172.21.0.2:54771->8.8.8.8:53]: got 1st packet from client
+1695041822.054722 debug redudp.c:288 redudp_enqeue_pkt(...) [172.21.0.2:44507->8.8.8.8:53]: <trace>
+1695041822.055412 info redudp.c:546 redudp_first_pkt_from_client(...) [172.21.0.2:44507->8.8.8.8:53]: got 1st packet from client
+1695041822.055826 debug redudp.c:288 redudp_enqeue_pkt(...) [172.21.0.2:54771->8.8.8.8:53]: <trace>
+1695041822.056265 debug redudp.c:288 redudp_enqeue_pkt(...) [172.21.0.2:44507->8.8.8.8:53]: <trace>
+1695041822.068108 debug redudp.c:474 redudp_relay_connected(...) [172.21.0.2:44507->8.8.8.8:53]: via 192.168.65.2:7450
+1695041822.068532 debug redudp.c:474 redudp_relay_connected(...) [172.21.0.2:54771->8.8.8.8:53]: via 192.168.65.2:7450
+1695041822.571326 debug redudp.c:430 redudp_read_auth_methods(...) [172.21.0.2:44507->8.8.8.8:53]: <trace>
+1695041822.572529 debug redudp.c:430 redudp_read_auth_methods(...) [172.21.0.2:54771->8.8.8.8:53]: <trace>
+1695041822.833092 notice redudp.c:500 redudp_relay_error(...) [172.21.0.2:54771->8.8.8.8:53]: redudp_relay_error
+1695041822.835228 info redudp.c:217 redudp_drop_client(...) [172.21.0.2:54771->8.8.8.8:53]: Dropping...
+1695041822.836190 notice redudp.c:500 redudp_relay_error(...) [172.21.0.2:44507->8.8.8.8:53]: redudp_relay_error
+1695041822.839329 info redudp.c:217 redudp_drop_client(...) [172.21.0.2:44507->8.8.8.8:53]: Dropping...
+1695042041.062421 debug redudp.c:288 redudp_enqeue_pkt(...) [172.21.0.2:45482->8.8.8.8:53]: <trace>
+1695042041.066190 info redudp.c:546 redudp_first_pkt_from_client(...) [172.21.0.2:45482->8.8.8.8:53]: got 1st packet from client
+1695042041.066839 debug redudp.c:288 redudp_enqeue_pkt(...) [172.21.0.2:1889->8.8.8.8:53]: <trace>
+1695042041.069252 info redudp.c:546 redudp_first_pkt_from_client(...) [172.21.0.2:1889->8.8.8.8:53]: got 1st packet from client
+1695042041.069719 debug redudp.c:288 redudp_enqeue_pkt(...) [172.21.0.2:45482->8.8.8.8:53]: <trace>
+1695042041.070059 debug redudp.c:288 redudp_enqeue_pkt(...) [172.21.0.2:1889->8.8.8.8:53]: <trace>
+1695042041.075267 debug redudp.c:474 redudp_relay_connected(...) [172.21.0.2:45482->8.8.8.8:53]: via 192.168.65.2:7450
+1695042041.075652 debug redudp.c:474 redudp_relay_connected(...) [172.21.0.2:1889->8.8.8.8:53]: via 192.168.65.2:7450
+1695042041.558302 debug redudp.c:430 redudp_read_auth_methods(...) [172.21.0.2:45482->8.8.8.8:53]: <trace>
+1695042041.576650 debug redudp.c:430 redudp_read_auth_methods(...) [172.21.0.2:1889->8.8.8.8:53]: <trace>
+1695042041.810520 notice redudp.c:500 redudp_relay_error(...) [172.21.0.2:45482->8.8.8.8:53]: redudp_relay_error
+1695042041.811404 info redudp.c:217 redudp_drop_client(...) [172.21.0.2:45482->8.8.8.8:53]: Dropping...
+1695042041.829575 notice redudp.c:500 redudp_relay_error(...) [172.21.0.2:1889->8.8.8.8:53]: redudp_relay_error
+1695042041.830211 info redudp.c:217 redudp_drop_client(...) [172.21.0.2:1889->8.8.8.8:53]: Dropping...
+1695042058.551378 debug redudp.c:288 redudp_enqeue_pkt(...) [172.21.0.2:59992->8.8.8.8:53]: <trace>
+1695042058.555315 info redudp.c:546 redudp_first_pkt_from_client(...) [172.21.0.2:59992->8.8.8.8:53]: got 1st packet from client
+1695042058.556015 debug redudp.c:288 redudp_enqeue_pkt(...) [172.21.0.2:25597->8.8.8.8:53]: <trace>
+1695042058.557977 info redudp.c:546 redudp_first_pkt_from_client(...) [172.21.0.2:25597->8.8.8.8:53]: got 1st packet from client
+1695042058.564450 debug redudp.c:288 redudp_enqeue_pkt(...) [172.21.0.2:59992->8.8.8.8:53]: <trace>
+1695042058.565207 debug redudp.c:474 redudp_relay_connected(...) [172.21.0.2:59992->8.8.8.8:53]: via 192.168.65.2:7450
+1695042058.565675 debug redudp.c:474 redudp_relay_connected(...) [172.21.0.2:25597->8.8.8.8:53]: via 192.168.65.2:7450
+1695042058.566245 debug redudp.c:288 redudp_enqeue_pkt(...) [172.21.0.2:25597->8.8.8.8:53]: <trace>
+1695042058.567258 info redsocks.c:1243 redsocks_accept_client(...) [172.21.0.2:49782->172.217.160.110:443]: accepted
+1695042059.063050 debug redudp.c:430 redudp_read_auth_methods(...) [172.21.0.2:25597->8.8.8.8:53]: <trace>
+1695042059.076603 debug redudp.c:430 redudp_read_auth_methods(...) [172.21.0.2:59992->8.8.8.8:53]: <trace>
+1695042059.325411 notice redudp.c:500 redudp_relay_error(...) [172.21.0.2:25597->8.8.8.8:53]: redudp_relay_error
+1695042059.326783 info redudp.c:217 redudp_drop_client(...) [172.21.0.2:25597->8.8.8.8:53]: Dropping...
+1695042059.332675 notice redudp.c:500 redudp_relay_error(...) [172.21.0.2:59992->8.8.8.8:53]: redudp_relay_error
+1695042059.333629 info redudp.c:217 redudp_drop_client(...) [172.21.0.2:59992->8.8.8.8:53]: Dropping...
+1695042059.533777 debug redsocks.c:341 redsocks_start_relay(...) [172.21.0.2:49782->172.217.160.110:443]: data relaying started
+1695042060.483197 info redsocks.c:671 redsocks_drop_client(...) [172.21.0.2:49782->172.217.160.110:443]: connection closed
+1695042120.821857 debug redudp.c:288 redudp_enqeue_pkt(...) [172.21.0.2:43261->8.8.8.8:53]: <trace>
+1695042120.825661 info redudp.c:546 redudp_first_pkt_from_client(...) [172.21.0.2:43261->8.8.8.8:53]: got 1st packet from client
+1695042120.826672 debug redudp.c:288 redudp_enqeue_pkt(...) [172.21.0.2:40039->8.8.8.8:53]: <trace>
+1695042120.827707 info redudp.c:546 redudp_first_pkt_from_client(...) [172.21.0.2:40039->8.8.8.8:53]: got 1st packet from client
+1695042120.831285 debug redudp.c:288 redudp_enqeue_pkt(...) [172.21.0.2:43261->8.8.8.8:53]: <trace>
+1695042120.832090 debug redudp.c:474 redudp_relay_connected(...) [172.21.0.2:43261->8.8.8.8:53]: via 192.168.65.2:7450
+1695042120.837626 debug redudp.c:288 redudp_enqeue_pkt(...) [172.21.0.2:40039->8.8.8.8:53]: <trace>
+1695042120.838138 debug redudp.c:474 redudp_relay_connected(...) [172.21.0.2:40039->8.8.8.8:53]: via 192.168.65.2:7450
+1695042120.873328 info redsocks.c:1243 redsocks_accept_client(...) [172.21.0.2:38848->172.217.160.110:443]: accepted
+1695042121.317847 debug redudp.c:430 redudp_read_auth_methods(...) [172.21.0.2:43261->8.8.8.8:53]: <trace>
+1695042121.342765 debug redudp.c:430 redudp_read_auth_methods(...) [172.21.0.2:40039->8.8.8.8:53]: <trace>
+1695042121.570240 notice redudp.c:500 redudp_relay_error(...) [172.21.0.2:43261->8.8.8.8:53]: redudp_relay_error
+1695042121.571281 info redudp.c:217 redudp_drop_client(...) [172.21.0.2:43261->8.8.8.8:53]: Dropping...
+1695042121.601624 notice redudp.c:500 redudp_relay_error(...) [172.21.0.2:40039->8.8.8.8:53]: redudp_relay_error
+1695042121.603091 info redudp.c:217 redudp_drop_client(...) [172.21.0.2:40039->8.8.8.8:53]: Dropping...
+1695042121.824726 debug redsocks.c:341 redsocks_start_relay(...) [172.21.0.2:38848->172.217.160.110:443]: data relaying started
+1695042122.753882 info redsocks.c:671 redsocks_drop_client(...) [172.21.0.2:38848->172.217.160.110:443]: connection closed
+1695042137.719081 debug redudp.c:288 redudp_enqeue_pkt(...) [172.21.0.2:43856->8.8.8.8:53]: <trace>
+1695042137.726107 info redudp.c:546 redudp_first_pkt_from_client(...) [172.21.0.2:43856->8.8.8.8:53]: got 1st packet from client
+1695042137.731397 debug redudp.c:288 redudp_enqeue_pkt(...) [172.21.0.2:49391->8.8.8.8:53]: <trace>
+1695042137.733380 info redudp.c:546 redudp_first_pkt_from_client(...) [172.21.0.2:49391->8.8.8.8:53]: got 1st packet from client
+1695042137.733856 debug redudp.c:288 redudp_enqeue_pkt(...) [172.21.0.2:43856->8.8.8.8:53]: <trace>
+1695042137.734219 debug redudp.c:474 redudp_relay_connected(...) [172.21.0.2:43856->8.8.8.8:53]: via 192.168.65.2:7450
+1695042137.734800 debug redudp.c:288 redudp_enqeue_pkt(...) [172.21.0.2:49391->8.8.8.8:53]: <trace>
+1695042137.735587 info redsocks.c:1243 redsocks_accept_client(...) [172.21.0.2:52478->59.24.3.174:443]: accepted
+1695042137.736977 debug redudp.c:474 redudp_relay_connected(...) [172.21.0.2:49391->8.8.8.8:53]: via 192.168.65.2:7450
+1695042138.232837 debug redudp.c:430 redudp_read_auth_methods(...) [172.21.0.2:43856->8.8.8.8:53]: <trace>
+1695042138.244189 debug redudp.c:430 redudp_read_auth_methods(...) [172.21.0.2:49391->8.8.8.8:53]: <trace>
+1695042138.492667 notice redudp.c:500 redudp_relay_error(...) [172.21.0.2:43856->8.8.8.8:53]: redudp_relay_error
+1695042138.494073 info redudp.c:217 redudp_drop_client(...) [172.21.0.2:43856->8.8.8.8:53]: Dropping...
+1695042138.500997 notice redudp.c:500 redudp_relay_error(...) [172.21.0.2:49391->8.8.8.8:53]: redudp_relay_error
+1695042138.501757 info redudp.c:217 redudp_drop_client(...) [172.21.0.2:49391->8.8.8.8:53]: Dropping...
+1695042151.688574 debug redsocks.c:782 redsocks_shutdown(...) [172.21.0.2:52478->59.24.3.174:443]: shutdown: bufferevent_disable(client, EV_READ)
+1695042154.114977 debug redudp.c:288 redudp_enqeue_pkt(...) [172.21.0.2:55191->8.8.8.8:53]: <trace>
+1695042154.120052 info redudp.c:546 redudp_first_pkt_from_client(...) [172.21.0.2:55191->8.8.8.8:53]: got 1st packet from client
+1695042154.127117 debug redudp.c:288 redudp_enqeue_pkt(...) [172.21.0.2:40253->8.8.8.8:53]: <trace>
+1695042154.140670 info redudp.c:546 redudp_first_pkt_from_client(...) [172.21.0.2:40253->8.8.8.8:53]: got 1st packet from client
+1695042154.141229 debug redudp.c:288 redudp_enqeue_pkt(...) [172.21.0.2:55191->8.8.8.8:53]: <trace>
+1695042154.141696 debug redudp.c:474 redudp_relay_connected(...) [172.21.0.2:55191->8.8.8.8:53]: via 192.168.65.2:7450
+1695042154.142233 info redsocks.c:1243 redsocks_accept_client(...) [172.21.0.2:35676->59.24.3.174:443]: accepted
+1695042154.142738 debug redudp.c:474 redudp_relay_connected(...) [172.21.0.2:40253->8.8.8.8:53]: via 192.168.65.2:7450
+1695042154.144393 debug redudp.c:288 redudp_enqeue_pkt(...) [172.21.0.2:40253->8.8.8.8:53]: <trace>
+1695042154.634207 debug redudp.c:430 redudp_read_auth_methods(...) [172.21.0.2:55191->8.8.8.8:53]: <trace>
+1695042154.637317 debug redudp.c:430 redudp_read_auth_methods(...) [172.21.0.2:40253->8.8.8.8:53]: <trace>
+1695042154.886427 notice redudp.c:500 redudp_relay_error(...) [172.21.0.2:55191->8.8.8.8:53]: redudp_relay_error
+1695042154.886660 info redudp.c:217 redudp_drop_client(...) [172.21.0.2:55191->8.8.8.8:53]: Dropping...
+1695042154.892118 notice redudp.c:500 redudp_relay_error(...) [172.21.0.2:40253->8.8.8.8:53]: redudp_relay_error
+1695042154.892957 info redudp.c:217 redudp_drop_client(...) [172.21.0.2:40253->8.8.8.8:53]: Dropping...
+1695042158.028178 debug redsocks.c:782 redsocks_shutdown(...) [172.21.0.2:35676->59.24.3.174:443]: shutdown: bufferevent_disable(client, EV_READ)
+1695042159.534693 debug redudp.c:288 redudp_enqeue_pkt(...) [172.21.0.2:58654->8.8.8.8:53]: <trace>
+1695042159.540297 info redudp.c:546 redudp_first_pkt_from_client(...) [172.21.0.2:58654->8.8.8.8:53]: got 1st packet from client
+1695042159.541755 debug redudp.c:288 redudp_enqeue_pkt(...) [172.21.0.2:36111->8.8.8.8:53]: <trace>
+1695042159.545184 info redudp.c:546 redudp_first_pkt_from_client(...) [172.21.0.2:36111->8.8.8.8:53]: got 1st packet from client
+1695042159.545740 debug redudp.c:474 redudp_relay_connected(...) [172.21.0.2:58654->8.8.8.8:53]: via 192.168.65.2:7450
+1695042159.545979 debug redudp.c:288 redudp_enqeue_pkt(...) [172.21.0.2:58654->8.8.8.8:53]: <trace>
+1695042159.547169 info redsocks.c:1243 redsocks_accept_client(...) [172.21.0.2:35678->59.24.3.174:443]: accepted
+1695042159.547812 debug redudp.c:288 redudp_enqeue_pkt(...) [172.21.0.2:36111->8.8.8.8:53]: <trace>
+1695042159.548572 debug redudp.c:474 redudp_relay_connected(...) [172.21.0.2:36111->8.8.8.8:53]: via 192.168.65.2:7450
+1695042160.046290 debug redudp.c:430 redudp_read_auth_methods(...) [172.21.0.2:36111->8.8.8.8:53]: <trace>
+1695042160.058011 debug redudp.c:430 redudp_read_auth_methods(...) [172.21.0.2:58654->8.8.8.8:53]: <trace>
+1695042160.303876 notice redudp.c:500 redudp_relay_error(...) [172.21.0.2:36111->8.8.8.8:53]: redudp_relay_error
+1695042160.305107 info redudp.c:217 redudp_drop_client(...) [172.21.0.2:36111->8.8.8.8:53]: Dropping...
+1695042160.319325 notice redudp.c:500 redudp_relay_error(...) [172.21.0.2:58654->8.8.8.8:53]: redudp_relay_error
+1695042160.320194 info redudp.c:217 redudp_drop_client(...) [172.21.0.2:58654->8.8.8.8:53]: Dropping...
+1695042161.146196 debug redsocks.c:782 redsocks_shutdown(...) [172.21.0.2:35678->59.24.3.174:443]: shutdown: bufferevent_disable(client, EV_READ)
+1695042161.854650 debug redudp.c:288 redudp_enqeue_pkt(...) [172.21.0.2:39310->8.8.8.8:53]: <trace>
+1695042161.860650 info redudp.c:546 redudp_first_pkt_from_client(...) [172.21.0.2:39310->8.8.8.8:53]: got 1st packet from client
+1695042161.861225 debug redudp.c:288 redudp_enqeue_pkt(...) [172.21.0.2:45532->8.8.8.8:53]: <trace>
+1695042161.861504 info redudp.c:546 redudp_first_pkt_from_client(...) [172.21.0.2:45532->8.8.8.8:53]: got 1st packet from client
+1695042161.861831 debug redudp.c:288 redudp_enqeue_pkt(...) [172.21.0.2:39310->8.8.8.8:53]: <trace>
+1695042161.862309 debug redudp.c:288 redudp_enqeue_pkt(...) [172.21.0.2:45532->8.8.8.8:53]: <trace>
+1695042161.864933 debug redudp.c:474 redudp_relay_connected(...) [172.21.0.2:39310->8.8.8.8:53]: via 192.168.65.2:7450
+1695042161.868221 debug redudp.c:474 redudp_relay_connected(...) [172.21.0.2:45532->8.8.8.8:53]: via 192.168.65.2:7450
+1695042161.871304 info redsocks.c:1243 redsocks_accept_client(...) [172.21.0.2:35990->59.24.3.174:443]: accepted
+1695042162.498189 debug redudp.c:430 redudp_read_auth_methods(...) [172.21.0.2:45532->8.8.8.8:53]: <trace>
+1695042162.499587 debug redudp.c:430 redudp_read_auth_methods(...) [172.21.0.2:39310->8.8.8.8:53]: <trace>
+1695042162.803561 notice redudp.c:500 redudp_relay_error(...) [172.21.0.2:39310->8.8.8.8:53]: redudp_relay_error
+1695042162.805660 info redudp.c:217 redudp_drop_client(...) [172.21.0.2:39310->8.8.8.8:53]: Dropping...
+1695042162.807277 notice redudp.c:500 redudp_relay_error(...) [172.21.0.2:45532->8.8.8.8:53]: redudp_relay_error
+1695042162.811834 info redudp.c:217 redudp_drop_client(...) [172.21.0.2:45532->8.8.8.8:53]: Dropping...
+1695042163.164316 debug redsocks.c:782 redsocks_shutdown(...) [172.21.0.2:35990->59.24.3.174:443]: shutdown: bufferevent_disable(client, EV_READ)
+1695042164.158848 debug redudp.c:288 redudp_enqeue_pkt(...) [172.21.0.2:34161->8.8.8.8:53]: <trace>
+1695042164.159575 info redudp.c:546 redudp_first_pkt_from_client(...) [172.21.0.2:34161->8.8.8.8:53]: got 1st packet from client
+1695042164.165542 debug redudp.c:288 redudp_enqeue_pkt(...) [172.21.0.2:41108->8.8.8.8:53]: <trace>
+1695042164.166041 info redudp.c:546 redudp_first_pkt_from_client(...) [172.21.0.2:41108->8.8.8.8:53]: got 1st packet from client
+1695042164.166418 debug redudp.c:288 redudp_enqeue_pkt(...) [172.21.0.2:34161->8.8.8.8:53]: <trace>
+1695042164.167835 debug redudp.c:474 redudp_relay_connected(...) [172.21.0.2:34161->8.8.8.8:53]: via 192.168.65.2:7450
+1695042164.168077 info redsocks.c:1243 redsocks_accept_client(...) [172.21.0.2:35994->59.24.3.174:443]: accepted
+1695042164.168797 debug redudp.c:288 redudp_enqeue_pkt(...) [172.21.0.2:41108->8.8.8.8:53]: <trace>
+1695042164.169095 debug redudp.c:474 redudp_relay_connected(...) [172.21.0.2:41108->8.8.8.8:53]: via 192.168.65.2:7450
+1695042164.747346 debug redudp.c:430 redudp_read_auth_methods(...) [172.21.0.2:41108->8.8.8.8:53]: <trace>
+1695042164.749283 debug redudp.c:430 redudp_read_auth_methods(...) [172.21.0.2:34161->8.8.8.8:53]: <trace>
+1695042165.064047 notice redudp.c:500 redudp_relay_error(...) [172.21.0.2:34161->8.8.8.8:53]: redudp_relay_error
+1695042165.065200 info redudp.c:217 redudp_drop_client(...) [172.21.0.2:34161->8.8.8.8:53]: Dropping...
+1695042165.066275 notice redudp.c:500 redudp_relay_error(...) [172.21.0.2:41108->8.8.8.8:53]: redudp_relay_error
+1695042165.074413 info redudp.c:217 redudp_drop_client(...) [172.21.0.2:41108->8.8.8.8:53]: Dropping...
+1695042165.499211 debug redsocks.c:782 redsocks_shutdown(...) [172.21.0.2:35994->59.24.3.174:443]: shutdown: bufferevent_disable(client, EV_READ)
+1695042202.132582 debug redudp.c:288 redudp_enqeue_pkt(...) [172.21.0.2:60209->8.8.8.8:53]: <trace>
+1695042202.141787 info redudp.c:546 redudp_first_pkt_from_client(...) [172.21.0.2:60209->8.8.8.8:53]: got 1st packet from client
+1695042202.145245 debug redudp.c:288 redudp_enqeue_pkt(...) [172.21.0.2:60209->8.8.8.8:53]: <trace>
+1695042202.147696 debug redudp.c:474 redudp_relay_connected(...) [172.21.0.2:60209->8.8.8.8:53]: via 192.168.65.2:7450
+1695042202.639292 debug redudp.c:430 redudp_read_auth_methods(...) [172.21.0.2:60209->8.8.8.8:53]: <trace>
+1695042202.956432 notice redudp.c:500 redudp_relay_error(...) [172.21.0.2:60209->8.8.8.8:53]: redudp_relay_error
+1695042202.956680 info redudp.c:217 redudp_drop_client(...) [172.21.0.2:60209->8.8.8.8:53]: Dropping...
+1695042204.636117 debug redudp.c:288 redudp_enqeue_pkt(...) [172.21.0.2:60209->8.8.8.8:53]: <trace>
+1695042204.639872 info redudp.c:546 redudp_first_pkt_from_client(...) [172.21.0.2:60209->8.8.8.8:53]: got 1st packet from client
+1695042204.646233 debug redudp.c:288 redudp_enqeue_pkt(...) [172.21.0.2:60209->8.8.8.8:53]: <trace>
+1695042204.652370 debug redudp.c:474 redudp_relay_connected(...) [172.21.0.2:60209->8.8.8.8:53]: via 192.168.65.2:7450
+1695042205.318167 debug redudp.c:430 redudp_read_auth_methods(...) [172.21.0.2:60209->8.8.8.8:53]: <trace>
+1695042205.585777 notice redudp.c:500 redudp_relay_error(...) [172.21.0.2:60209->8.8.8.8:53]: redudp_relay_error
+1695042205.586579 info redudp.c:217 redudp_drop_client(...) [172.21.0.2:60209->8.8.8.8:53]: Dropping...
+1695042216.176534 debug redudp.c:288 redudp_enqeue_pkt(...) [172.21.0.2:41213->8.8.8.8:53]: <trace>
+1695042216.180616 info redudp.c:546 redudp_first_pkt_from_client(...) [172.21.0.2:41213->8.8.8.8:53]: got 1st packet from client
+1695042216.182369 debug redudp.c:288 redudp_enqeue_pkt(...) [172.21.0.2:41213->8.8.8.8:53]: <trace>
+1695042216.186599 debug redudp.c:474 redudp_relay_connected(...) [172.21.0.2:41213->8.8.8.8:53]: via 192.168.65.2:7450
+1695042216.783813 debug redudp.c:430 redudp_read_auth_methods(...) [172.21.0.2:41213->8.8.8.8:53]: <trace>
+1695042217.101552 notice redudp.c:500 redudp_relay_error(...) [172.21.0.2:41213->8.8.8.8:53]: redudp_relay_error
+1695042217.102851 info redudp.c:217 redudp_drop_client(...) [172.21.0.2:41213->8.8.8.8:53]: Dropping...
+1695042218.680455 debug redudp.c:288 redudp_enqeue_pkt(...) [172.21.0.2:41213->8.8.8.8:53]: <trace>
+1695042218.681579 info redudp.c:546 redudp_first_pkt_from_client(...) [172.21.0.2:41213->8.8.8.8:53]: got 1st packet from client
+1695042218.681909 debug redudp.c:288 redudp_enqeue_pkt(...) [172.21.0.2:41213->8.8.8.8:53]: <trace>
+1695042218.685959 debug redudp.c:474 redudp_relay_connected(...) [172.21.0.2:41213->8.8.8.8:53]: via 192.168.65.2:7450
+1695042219.240144 debug redudp.c:430 redudp_read_auth_methods(...) [172.21.0.2:41213->8.8.8.8:53]: <trace>
+1695042219.549810 notice redudp.c:500 redudp_relay_error(...) [172.21.0.2:41213->8.8.8.8:53]: redudp_relay_error
+1695042219.551337 info redudp.c:217 redudp_drop_client(...) [172.21.0.2:41213->8.8.8.8:53]: Dropping...
+1695042227.399014 debug redudp.c:288 redudp_enqeue_pkt(...) [172.21.0.2:42745->8.8.8.8:53]: <trace>
+1695042227.407503 info redudp.c:546 redudp_first_pkt_from_client(...) [172.21.0.2:42745->8.8.8.8:53]: got 1st packet from client
+1695042227.412394 debug redudp.c:288 redudp_enqeue_pkt(...) [172.21.0.2:42745->8.8.8.8:53]: <trace>
+1695042227.414948 debug redudp.c:474 redudp_relay_connected(...) [172.21.0.2:42745->8.8.8.8:53]: via 192.168.65.2:7450
+1695042228.055680 debug redudp.c:430 redudp_read_auth_methods(...) [172.21.0.2:42745->8.8.8.8:53]: <trace>
+1695042228.357621 notice redudp.c:500 redudp_relay_error(...) [172.21.0.2:42745->8.8.8.8:53]: redudp_relay_error
+1695042228.359380 info redudp.c:217 redudp_drop_client(...) [172.21.0.2:42745->8.8.8.8:53]: Dropping...
+1695042229.903711 debug redudp.c:288 redudp_enqeue_pkt(...) [172.21.0.2:42745->8.8.8.8:53]: <trace>
+1695042229.905804 info redudp.c:546 redudp_first_pkt_from_client(...) [172.21.0.2:42745->8.8.8.8:53]: got 1st packet from client
+1695042229.907227 debug redudp.c:288 redudp_enqeue_pkt(...) [172.21.0.2:42745->8.8.8.8:53]: <trace>
+1695042229.914458 debug redudp.c:474 redudp_relay_connected(...) [172.21.0.2:42745->8.8.8.8:53]: via 192.168.65.2:7450
+1695042230.505361 debug redudp.c:430 redudp_read_auth_methods(...) [172.21.0.2:42745->8.8.8.8:53]: <trace>
+1695042230.758344 notice redudp.c:500 redudp_relay_error(...) [172.21.0.2:42745->8.8.8.8:53]: redudp_relay_error
+1695042230.759701 info redudp.c:217 redudp_drop_client(...) [172.21.0.2:42745->8.8.8.8:53]: Dropping...
+1695042240.654825 debug redudp.c:288 redudp_enqeue_pkt(...) [172.21.0.2:39268->8.8.8.8:53]: <trace>
+1695042240.660145 info redudp.c:546 redudp_first_pkt_from_client(...) [172.21.0.2:39268->8.8.8.8:53]: got 1st packet from client
+1695042240.664460 debug redudp.c:288 redudp_enqeue_pkt(...) [172.21.0.2:39268->8.8.8.8:53]: <trace>
+1695042240.666561 debug redudp.c:474 redudp_relay_connected(...) [172.21.0.2:39268->8.8.8.8:53]: via 192.168.65.2:7450
+1695042241.172944 debug redudp.c:430 redudp_read_auth_methods(...) [172.21.0.2:39268->8.8.8.8:53]: <trace>
+1695042241.462696 notice redudp.c:500 redudp_relay_error(...) [172.21.0.2:39268->8.8.8.8:53]: redudp_relay_error
+1695042241.464289 info redudp.c:217 redudp_drop_client(...) [172.21.0.2:39268->8.8.8.8:53]: Dropping...
+1695042243.159794 debug redudp.c:288 redudp_enqeue_pkt(...) [172.21.0.2:39268->8.8.8.8:53]: <trace>
+1695042243.161959 info redudp.c:546 redudp_first_pkt_from_client(...) [172.21.0.2:39268->8.8.8.8:53]: got 1st packet from client
+1695042243.165539 debug redudp.c:288 redudp_enqeue_pkt(...) [172.21.0.2:39268->8.8.8.8:53]: <trace>
+1695042243.169892 debug redudp.c:474 redudp_relay_connected(...) [172.21.0.2:39268->8.8.8.8:53]: via 192.168.65.2:7450
+1695042243.817278 debug redudp.c:430 redudp_read_auth_methods(...) [172.21.0.2:39268->8.8.8.8:53]: <trace>
+1695042244.137422 notice redudp.c:500 redudp_relay_error(...) [172.21.0.2:39268->8.8.8.8:53]: redudp_relay_error
+1695042244.138816 info redudp.c:217 redudp_drop_client(...) [172.21.0.2:39268->8.8.8.8:53]: Dropping...
+1695042267.772633 debug redsocks.c:782 redsocks_shutdown(...) [172.21.0.2:52478->59.24.3.174:443]: shutdown: bufferevent_disable(relay, EV_READ)
+1695042288.249934 debug redsocks.c:782 redsocks_shutdown(...) [172.21.0.2:35676->59.24.3.174:443]: shutdown: bufferevent_disable(relay, EV_READ)
+1695042293.367710 debug redsocks.c:782 redsocks_shutdown(...) [172.21.0.2:35990->59.24.3.174:443]: shutdown: bufferevent_disable(relay, EV_READ)
+1695042293.368839 debug redsocks.c:782 redsocks_shutdown(...) [172.21.0.2:35678->59.24.3.174:443]: shutdown: bufferevent_disable(relay, EV_READ)
+1695042298.501619 debug redsocks.c:782 redsocks_shutdown(...) [172.21.0.2:35994->59.24.3.174:443]: shutdown: bufferevent_disable(relay, EV_READ)
+1695043628.188524 debug redsocks.c:782 redsocks_shutdown(...) [172.21.0.2:40294->93.46.8.90:443]: shutdown: bufferevent_disable(client, EV_READ)
